@@ -55,7 +55,7 @@ export SYSTEM_KEYC="${SCHEDULER_SYSTEM}_${HOSTNAME}_${COMPILER}"
 # Put your directories:
 export DIR_SCRIPTS=$(dirname $(dirname $(pwd)))
 export DIR_DADOS=${DIR_SCRIPTS}
-export MONANDIR=/mnt/beegfs/carlos.souza/issues/833-scripts-cdct-teste-ian/scripts_CD-CT/sources/MONAN-Model_feature/monan-833-NF
+export MONANDIR=/p/projetos/monan_atm/madeleine.gacita/scripts_CD-CT/sources/MONAN-Model_radiation_tests
 
 
 # Load your system setenv:

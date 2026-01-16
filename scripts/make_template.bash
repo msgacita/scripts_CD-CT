@@ -70,7 +70,8 @@ mkdir -p ${DATAOUT}/${YYYYMMDDHHi}/Post/logs
 START_DATE_YYYYMMDD="${YYYYMMDDHHi:0:4}-${YYYYMMDDHHi:4:2}-${YYYYMMDDHHi:6:2}"
 START_HH="${YYYYMMDDHHi:8:2}"
 maxpostpernode=20    # <------ qtde max de convert_mpas por no!
-VARTABLE=".OPER"
+#VARTABLE=".OPER"
+VARTABLE=".TEST"
 export DIRRUN=${DIRHOMED}/run.${YYYYMMDDHHi}; rm -fr ${DIRRUN}; mkdir -p ${DIRRUN}
 N_MODEL_LEV=55
 #-------------------------------------------------------
