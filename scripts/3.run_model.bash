@@ -73,8 +73,7 @@ cores=${MODEL_ncores}
 hhi=${YYYYMMDDHHi:8:2}
 NLEV=55
 CONFIG_CONV_INTERVAL="00:30:00"
-#VARTABLE=".OPER"
-VARTABLE=".TEST"
+VARTABLE=".OPER"
 export DIRRUN=${DIRHOMED}/run.${YYYYMMDDHHi}; rm -fr ${DIRRUN}; mkdir -p ${DIRRUN}
 #------------------------------------------------------------------------------------
 
